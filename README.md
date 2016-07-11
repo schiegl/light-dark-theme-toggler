@@ -2,15 +2,15 @@
 
 As of now it will change themes for:
 
-	* GTK & icons (only for XFCE, but more DEs can be added easily)
-	* XFCE4 Terminal
-	* Rofi
-	* Intellij IDEA 2016.1 CE
+* GTK & icons (only for XFCE, but more DEs can be added easily)
+* XFCE4 Terminal
+* Rofi
+* Intellij IDEA 2016.1 CE
 
 The script takes options:
 
-	* toggle: switches to dark if light is applied and the other way around
-	* time: Looks at the time and switches based on your time preferences
+* toggle: switches to dark if light is applied and the other way around
+* time: Looks at the time and switches based on your time preferences
 
 The time option becomes interesting in combination with a systemd timer and service which can switch automatically. Here is how you would set up them up:
 
